@@ -38,13 +38,30 @@
                   background-color: rgb(187, 166, 166);
                   color: red;
             }
+
+            @media screen and (max-width: 768px) {
+                  .navbar {
+                        flex-direction: column;
+                        align-items: flex-start;
+                  }
+
+                  .nav-links {
+                        margin-top: 10px;
+                  }
+
+                  .nav-item {
+                        display: block;
+                        margin-bottom: 5px;
+                  }
+            }
       </style>
 </head>
 
 <body>
       <nav class="navbar">
             <a href="#" class="logo">
-                  <img src="https://media.istockphoto.com/id/1331491686/vector/element-design.jpg?s=612x612&w=0&k=20&c=QIMRS2IPiQyyTZJR_G1JAjH_ErBBkrDPtQe2GBNgm2w=" alt="logo" class="logo-img">
+                  <img src="https://media.istockphoto.com/id/1331491686/vector/element-design.jpg?s=612x612&w=0&k=20&c=QIMRS2IPiQyyTZJR_G1JAjH_ErBBkrDPtQe2GBNgm2w="
+                        alt="logo" class="logo-img">
             </a>
             <div class="nav-links">
                   <a href="./nav.html" class="nav-items">Home</a>
